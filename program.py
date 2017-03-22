@@ -6,7 +6,7 @@
  Mail:        konka@maxln.com
  Time:        2017.03.22
 
- Filename:    easycurl.py
+ Filename:    program.py
 
  Relative:    requests
  Description: fetch `oreilly` free webops books ["pdf", "mobi", "epub"]
