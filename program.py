@@ -38,7 +38,7 @@ def main():
 
             if not os.path.isfile(file_path):
                 data = requests.get(file_link, headers=headers).content
-                with open(file_path, 'w') as filehandle:
+                with open(file_path, 'wb') as filehandle:
                     filehandle.write(data)
 
                 print "    > file save: %s" % file_path
